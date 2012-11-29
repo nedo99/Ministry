@@ -1,0 +1,107 @@
+/* 
+    Document   : style
+    Created on : Mar 3, 2012, 9:28:15 AM
+    Author     : nedim
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.postavka{
+	 font-family: Arial, sans-serif;
+	 color: #356AA0;
+	}
+.body_omot {
+    width:1100px;
+				
+                                height:100%;
+                                border:1px solid #356AA0;
+                                margin-left: auto;
+                                margin-right: auto;
+                               padding:2px;
+                                
+			}
+			.podloga{
+				
+				height:100%;
+				background:#e9e9e9;
+				
+			}
+			
+			.podloga a{
+				color: #356AA0; 
+			}
+                        .body_naslov{
+                            text-align: center;
+                            font-size: 48px;
+                            
+                            text-transform: uppercase;
+                            
+                        }
+						
+						   .box {   display:inline-block; width: 250px; border:1px solid #356AA0; background:#e9e9e9;  padding:2px;}
+                        .body_omot p{
+                            font-size:12px; text-align: justify;
+                        }
+                        .body_omot h2{
+                            font-size:16px; text-align: justify;
+                        }
+                        .body_omot h1{
+                            font: normal 26px Arial, sans-serif; color:#356AA0; text-align: justify;
+                        }
+						.podloga li{
+							list-style:url(images/nab.png); font-size:12px;
+						}
+                        .box1 {
+                            	display:inline-block; width: 826px; border:1px solid #356AA0; background:#e9e9e9; padding:5px; vertical-align:top; 
+                        }
+						.novosti{
+							width:1076px; display:inline-block;border:1px solid #356AA0; background:#e9e9e9; padding:5px; vertical-align:top;
+						}
+                        
+                        .footer{
+                             font-size: 10px; text-align: center;
+                        }
+
+                        
+			
+			#menu {
+				
+				font-weight: bold;
+				text-transform: uppercase;
+				margin: 30px 0;
+				margin-bottom:0;
+				padding: 0;
+				list-style-type: none;
+				background-color: #eee;
+				font-size: 13px;
+				height: 40px;
+				border-top: 2px solid #eee;
+				border-bottom: 2px solid #ccc;
+				border-left: 2px solid #ccc;
+				border-right: 2px solid #eee;
+			}
+			#menu li {
+				float: left;
+				margin: 0;				
+			}
+			#menu li a {
+				text-decoration: none;
+				display: block;
+				padding: 0 20px;
+				line-height: 40px;
+				color: #666;
+			}
+                        
+			
+			
+                        
+                        
+			#menu_wrapper.blue ul {
+				border-top: 2px solid #356AA0;
+				border-bottom: 2px solid #204061;
+				background: #356AA0;}
+			#menu_wrapper.blue a {color: #fff;}
+			#menu_wrapper.blue li a:hover, #menu_wrapper.blue li.active a {color: #90CDFF; background: #3D7BBB; border-bottom: 2px solid #356AA0;}
+			#menu_wrapper.blue {background: url(images/blue.png) no-repeat right;}
+			#menu_wrapper.blue div {background: url(images/blue.png) no-repeat left;}
+                        
+                     
