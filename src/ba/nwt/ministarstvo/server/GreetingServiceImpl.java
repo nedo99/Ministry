@@ -88,7 +88,7 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements
 			e.printStackTrace();
 		}
 		try {
-			c = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/nwt", "", "");
+			c = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/nwt", "root", "niko");
 		} catch (SQLException e) {
 			vrati=e.getMessage();
 			e.printStackTrace();
