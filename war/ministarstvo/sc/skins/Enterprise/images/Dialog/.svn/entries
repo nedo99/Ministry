@@ -1,14 +1,14 @@
 9
 
 dir
-10
-http://f.etf.unsa.ba/svn/nedim-hadzic-nwt/trunk/war/ministarstvo/sc/skins/Enterprise/images/Dialog
+11
+http://f.etf.unsa.ba/svn/nedim-hadzic-nwt/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/Dialog
 http://f.etf.unsa.ba/svn/nedim-hadzic-nwt
 
 
 
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
 
 
@@ -25,13 +25,6 @@ svn:special svn:externals svn:needs-lock
 
 
 30939660-8b42-4eec-8893-fb27a6d09626
-
-
-
-
-
-
-0
 
 ask.png
 file
@@ -39,10 +32,10 @@ file
 
 
 
-2011-12-12T08:40:12.000000Z
+2012-05-12T10:16:00.000000Z
 926110e9c70997d59bac3290a8341f2f
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
 has-props
 
@@ -73,10 +66,10 @@ file
 
 
 
-2011-12-12T08:40:12.000000Z
+2012-05-12T10:16:00.000000Z
 5b4bbee3e192496d72abb7f476e2e2be
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
 has-props
 
@@ -107,10 +100,10 @@ file
 
 
 
-2011-12-12T08:40:12.000000Z
+2012-05-12T10:16:00.000000Z
 fc20b1db6b778ff607d4bc8083a4805d
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
 has-props
 
@@ -141,10 +134,10 @@ file
 
 
 
-2011-12-12T08:40:12.000000Z
+2012-05-12T10:16:00.000000Z
 5b4bbee3e192496d72abb7f476e2e2be
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
 has-props
 
@@ -175,10 +168,10 @@ file
 
 
 
-2011-12-12T08:40:12.000000Z
+2012-05-12T10:16:00.000000Z
 277e7c01dd7d6f65245518ac2139fdcc
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
 has-props
 
@@ -209,10 +202,10 @@ file
 
 
 
-2011-12-12T08:40:12.000000Z
+2012-05-12T10:16:00.000000Z
 0adbbc00e2a65671afd90b31e8a1083e
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
 has-props
 
@@ -240,13 +233,13 @@ has-props
 warn copy.png
 file
 
-http://f.etf.unsa.ba/svn/nedim-hadzic-nwt/trunk/war/ministarstvo/sc/skins/Enterprise/images/Dialog/warn%20copy.png
+http://f.etf.unsa.ba/svn/nedim-hadzic-nwt/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/Dialog/warn%20copy.png
 
 
-2011-12-12T08:40:12.000000Z
+2012-05-12T10:16:00.000000Z
 fb19c5ee48f4a6df6aa958aef162c438
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
 has-props
 
@@ -277,10 +270,10 @@ file
 
 
 
-2011-12-12T08:40:12.000000Z
+2012-05-12T10:16:00.000000Z
 fb19c5ee48f4a6df6aa958aef162c438
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
 has-props
 

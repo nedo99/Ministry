@@ -1,29 +1,35 @@
 K 25
 svn:wc:ra_dav:version-url
-V 70
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/src/ba/nwt/ministarstvo/client
+V 83
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/src/ba/nwt/ministarstvo/client
 END
 GreetingServiceAsync.java
 K 25
 svn:wc:ra_dav:version-url
-V 96
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/src/ba/nwt/ministarstvo/client/GreetingServiceAsync.java
+V 109
+/svn/nedim-hadzic-nwt/!svn/ver/15/trunk/Ministarstvo/src/ba/nwt/ministarstvo/client/GreetingServiceAsync.java
+END
+Home.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/nedim-hadzic-nwt/!svn/ver/15/trunk/Ministarstvo/src/ba/nwt/ministarstvo/client/Home.java
 END
 GreetingService.java
 K 25
 svn:wc:ra_dav:version-url
-V 91
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/src/ba/nwt/ministarstvo/client/GreetingService.java
+V 104
+/svn/nedim-hadzic-nwt/!svn/ver/15/trunk/Ministarstvo/src/ba/nwt/ministarstvo/client/GreetingService.java
 END
 ItemSupplyLocalDS.java
 K 25
 svn:wc:ra_dav:version-url
-V 93
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/src/ba/nwt/ministarstvo/client/ItemSupplyLocalDS.java
+V 106
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/src/ba/nwt/ministarstvo/client/ItemSupplyLocalDS.java
 END
 Ministarstvo.java
 K 25
 svn:wc:ra_dav:version-url
-V 88
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/src/ba/nwt/ministarstvo/client/Ministarstvo.java
+V 101
+/svn/nedim-hadzic-nwt/!svn/ver/15/trunk/Ministarstvo/src/ba/nwt/ministarstvo/client/Ministarstvo.java
 END

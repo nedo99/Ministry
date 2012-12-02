@@ -1,14 +1,14 @@
 9
 
 dir
-10
-http://f.etf.unsa.ba/svn/nedim-hadzic-nwt/trunk/src/ba/nwt/ministarstvo/shared
+11
+http://f.etf.unsa.ba/svn/nedim-hadzic-nwt/trunk/Ministarstvo/src/ba/nwt/ministarstvo/shared
 http://f.etf.unsa.ba/svn/nedim-hadzic-nwt
 
 
 
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
 
 
@@ -25,13 +25,6 @@ svn:special svn:externals svn:needs-lock
 
 
 30939660-8b42-4eec-8893-fb27a6d09626
-
-
-
-
-
-
-0
 
 FieldVerifier.java
 file
@@ -39,12 +32,12 @@ file
 
 
 
-2012-05-10T22:00:34.000000Z
+2012-05-12T10:15:49.000000Z
 213a29b70295effcd2015d46f0c942ba
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
-has-props
+
 
 
 
@@ -67,18 +60,52 @@ has-props
 
 1512
 
+Kalendar.java
+file
+15
+
+
+
+2012-06-04T14:08:57.000000Z
+4a380b3a99fda9476e986949955ece7f
+2012-06-08T21:55:46.089327Z
+15
+nh15234
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+984
+
 Korisnici.java
 file
 
 
 
 
-2012-05-11T14:01:34.000000Z
+2012-05-12T10:15:49.000000Z
 c80dbd1a09f397a6c7b2141ef11cbc24
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
-has-props
+
 
 
 
@@ -103,14 +130,48 @@ has-props
 
 Korisnik.java
 file
+12
+
+
+
+2012-05-27T12:36:45.000000Z
+5cd7db73258b027f524c40eebd75227d
+2012-05-27T20:49:25.768248Z
+12
+nh15234
 
 
 
 
-2012-05-11T14:01:07.000000Z
-e30fa2c19c177709291570420ad5db30
-2012-05-11T17:16:18.448423Z
-10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1539
+
+Ministarstvo.java
+file
+15
+
+
+delete
+2012-06-07T21:28:18.000000Z
+0cd395bf6ee5897b051f8736c9913d3d
+2012-06-08T21:55:46.089327Z
+15
 nh15234
 has-props
 
@@ -133,5 +194,107 @@ has-props
 
 
 
-1422
+169
+
+Novost.java
+file
+12
+
+
+
+2012-05-27T16:03:15.000000Z
+ccc038dffc7474278bac35a81a028bf8
+2012-05-27T20:49:25.768248Z
+12
+nh15234
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+894
+
+Novosti.java
+file
+12
+
+
+
+2012-05-27T17:03:51.000000Z
+6a673b1005a09401f5c1562205c64c60
+2012-05-27T20:49:25.768248Z
+12
+nh15234
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+626
+
+Preporuci.java
+file
+12
+
+
+
+2012-05-27T20:29:34.000000Z
+78ce7a5b6d2095c97af9b0653908e17d
+2012-05-27T20:49:25.768248Z
+12
+nh15234
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1125
 

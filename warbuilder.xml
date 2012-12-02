@@ -1,0 +1,6 @@
+<project name="Ministarstvo" basedir="." default="default">
+<target name="default" depends="buildwar,deploy"/>
+<target name="buildwar"><war basedir="war" destfile="Ministarstvo.war" webxml="war/WEB-INF/web.xml">
+<exclude name="WEB-INF/**"/><webinf dir="war/WEB-INF/">
+<include name="**/*.jar"/></webinf></war></target><target name="deploy">
+<copy file="Ministarstvo.war" todir="."/></target></project>

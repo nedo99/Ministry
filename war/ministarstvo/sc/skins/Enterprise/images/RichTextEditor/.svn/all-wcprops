@@ -1,173 +1,173 @@
 K 25
 svn:wc:ra_dav:version-url
-V 98
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor
+V 111
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor
 END
 separator.png
 K 25
 svn:wc:ra_dav:version-url
-V 112
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/separator.png
+V 125
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/separator.png
 END
 text_color_Disabled.gif
 K 25
 svn:wc:ra_dav:version-url
-V 122
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_color_Disabled.gif
+V 135
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_color_Disabled.gif
 END
 copy_Disabled.png
 K 25
 svn:wc:ra_dav:version-url
-V 116
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/copy_Disabled.png
+V 129
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/copy_Disabled.png
 END
 outdent_Disabled.png
 K 25
 svn:wc:ra_dav:version-url
-V 119
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/outdent_Disabled.png
-END
-paste_Disabled.png
-K 25
-svn:wc:ra_dav:version-url
-V 117
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/paste_Disabled.png
-END
-text_align_justified_Disabled.png
-K 25
-svn:wc:ra_dav:version-url
 V 132
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_align_justified_Disabled.png
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/outdent_Disabled.png
 END
 text_align_left_Disabled.png
 K 25
 svn:wc:ra_dav:version-url
-V 127
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_align_left_Disabled.png
+V 140
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_align_left_Disabled.png
+END
+paste_Disabled.png
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/paste_Disabled.png
+END
+text_align_justified_Disabled.png
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_align_justified_Disabled.png
 END
 text_align_right_Disabled.png
 K 25
 svn:wc:ra_dav:version-url
-V 128
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_align_right_Disabled.png
-END
-indent.png
-K 25
-svn:wc:ra_dav:version-url
-V 109
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/indent.png
+V 141
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_align_right_Disabled.png
 END
 text_color.gif
 K 25
 svn:wc:ra_dav:version-url
-V 113
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_color.gif
+V 126
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_color.gif
+END
+indent.png
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/indent.png
 END
 background_color.gif
 K 25
 svn:wc:ra_dav:version-url
-V 119
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/background_color.gif
+V 132
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/background_color.gif
 END
 indent_Disabled.png
 K 25
 svn:wc:ra_dav:version-url
-V 118
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/indent_Disabled.png
+V 131
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/indent_Disabled.png
 END
 text_align_right.png
 K 25
 svn:wc:ra_dav:version-url
-V 119
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_align_right.png
-END
-paste.png
-K 25
-svn:wc:ra_dav:version-url
-V 108
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/paste.png
+V 132
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_align_right.png
 END
 text_align_justified.png
 K 25
 svn:wc:ra_dav:version-url
-V 123
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_align_justified.png
+V 136
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_align_justified.png
 END
 text_align_left.png
 K 25
 svn:wc:ra_dav:version-url
-V 118
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_align_left.png
+V 131
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_align_left.png
+END
+paste.png
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/paste.png
 END
 copy.png
 K 25
 svn:wc:ra_dav:version-url
-V 107
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/copy.png
+V 120
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/copy.png
 END
 outdent.png
 K 25
 svn:wc:ra_dav:version-url
-V 110
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/outdent.png
+V 123
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/outdent.png
 END
 separator_Disabled.png
 K 25
 svn:wc:ra_dav:version-url
-V 121
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/separator_Disabled.png
+V 134
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/separator_Disabled.png
 END
 text_bold.png
 K 25
 svn:wc:ra_dav:version-url
-V 112
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_bold.png
+V 125
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_bold.png
 END
 cut_Disabled.png
 K 25
 svn:wc:ra_dav:version-url
-V 115
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/cut_Disabled.png
+V 128
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/cut_Disabled.png
 END
 text_align_center_Disabled.png
 K 25
 svn:wc:ra_dav:version-url
-V 129
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_align_center_Disabled.png
+V 142
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_align_center_Disabled.png
 END
 text_underline.png
 K 25
 svn:wc:ra_dav:version-url
-V 117
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_underline.png
+V 130
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_underline.png
 END
 link_new.png
 K 25
 svn:wc:ra_dav:version-url
-V 111
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/link_new.png
+V 124
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/link_new.png
 END
 text_align_center.png
 K 25
 svn:wc:ra_dav:version-url
-V 120
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_align_center.png
-END
-cut.png
-K 25
-svn:wc:ra_dav:version-url
-V 106
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/cut.png
+V 133
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_align_center.png
 END
 text_italic.png
 K 25
 svn:wc:ra_dav:version-url
-V 114
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_italic.png
+V 127
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/text_italic.png
+END
+cut.png
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/cut.png
 END
 background_color_Disabled.gif
 K 25
 svn:wc:ra_dav:version-url
-V 128
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/background_color_Disabled.gif
+V 141
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/RichTextEditor/background_color_Disabled.gif
 END

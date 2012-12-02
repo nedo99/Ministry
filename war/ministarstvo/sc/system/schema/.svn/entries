@@ -1,14 +1,14 @@
 9
 
 dir
-10
-http://f.etf.unsa.ba/svn/nedim-hadzic-nwt/trunk/war/ministarstvo/sc/system/schema
+11
+http://f.etf.unsa.ba/svn/nedim-hadzic-nwt/trunk/Ministarstvo/war/ministarstvo/sc/system/schema
 http://f.etf.unsa.ba/svn/nedim-hadzic-nwt
 
 
 
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
 
 
@@ -25,13 +25,6 @@ svn:special svn:externals svn:needs-lock
 
 
 30939660-8b42-4eec-8893-fb27a6d09626
-
-
-
-
-
-
-0
 
 SmartClientOperations.wsdl
 file
@@ -39,12 +32,12 @@ file
 
 
 
-2011-12-12T08:40:12.000000Z
+2012-05-12T10:15:52.000000Z
 e43601727e075a0c13a1fbe94f00162a
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
-has-props
+
 
 
 
@@ -73,12 +66,12 @@ file
 
 
 
-2011-12-12T08:40:12.000000Z
+2012-05-12T10:15:52.000000Z
 089c668b0cf5d769a7746e96c5c3f824
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
-has-props
+
 
 
 
@@ -107,12 +100,12 @@ file
 
 
 
-2011-12-12T08:40:12.000000Z
+2012-05-12T10:15:52.000000Z
 459658276529cdbb234a8250c0b80eb2
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
-has-props
+
 
 
 
@@ -141,12 +134,12 @@ file
 
 
 
-2011-12-12T08:40:12.000000Z
+2012-05-12T10:15:52.000000Z
 4c3dbe08f72892db9a2c849d9bff3eb9
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
-has-props
+
 
 
 

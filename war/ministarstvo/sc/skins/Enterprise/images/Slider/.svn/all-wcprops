@@ -1,113 +1,113 @@
 K 25
 svn:wc:ra_dav:version-url
-V 90
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/Slider
+V 103
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/Slider
 END
 htrack_start.png
 K 25
 svn:wc:ra_dav:version-url
-V 107
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/Slider/htrack_start.png
-END
-htrack_stretch.png
-K 25
-svn:wc:ra_dav:version-url
-V 109
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/Slider/htrack_stretch.png
+V 120
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/Slider/htrack_start.png
 END
 vtrack_Disabled_start.png
 K 25
 svn:wc:ra_dav:version-url
-V 116
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/Slider/vtrack_Disabled_start.png
+V 129
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/Slider/vtrack_Disabled_start.png
+END
+htrack_stretch.png
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/Slider/htrack_stretch.png
 END
 vtrack_Disabled_stretch.png
 K 25
 svn:wc:ra_dav:version-url
-V 118
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/Slider/vtrack_Disabled_stretch.png
+V 131
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/Slider/vtrack_Disabled_stretch.png
 END
 hthumb_Disabled.png
 K 25
 svn:wc:ra_dav:version-url
-V 110
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/Slider/hthumb_Disabled.png
+V 123
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/Slider/hthumb_Disabled.png
 END
 hthumb.png
 K 25
 svn:wc:ra_dav:version-url
-V 101
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/Slider/hthumb.png
+V 114
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/Slider/hthumb.png
 END
 vtrack_end.png
 K 25
 svn:wc:ra_dav:version-url
-V 105
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/Slider/vtrack_end.png
+V 118
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/Slider/vtrack_end.png
 END
 hthumb_down.png
 K 25
 svn:wc:ra_dav:version-url
-V 106
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/Slider/hthumb_down.png
+V 119
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/Slider/hthumb_down.png
 END
 htrack_Disabled_end.png
 K 25
 svn:wc:ra_dav:version-url
-V 114
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/Slider/htrack_Disabled_end.png
+V 127
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/Slider/htrack_Disabled_end.png
 END
 vtrack_start.png
 K 25
 svn:wc:ra_dav:version-url
-V 107
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/Slider/vtrack_start.png
-END
-htrack_Disabled_start.png
-K 25
-svn:wc:ra_dav:version-url
-V 116
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/Slider/htrack_Disabled_start.png
+V 120
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/Slider/vtrack_start.png
 END
 vthumb_Disabled.png
 K 25
 svn:wc:ra_dav:version-url
-V 110
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/Slider/vthumb_Disabled.png
+V 123
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/Slider/vthumb_Disabled.png
+END
+htrack_Disabled_start.png
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/Slider/htrack_Disabled_start.png
 END
 vtrack_stretch.png
 K 25
 svn:wc:ra_dav:version-url
-V 109
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/Slider/vtrack_stretch.png
+V 122
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/Slider/vtrack_stretch.png
 END
 htrack_Disabled_stretch.png
 K 25
 svn:wc:ra_dav:version-url
-V 118
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/Slider/htrack_Disabled_stretch.png
+V 131
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/Slider/htrack_Disabled_stretch.png
 END
 htrack_end.png
 K 25
 svn:wc:ra_dav:version-url
-V 105
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/Slider/htrack_end.png
+V 118
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/Slider/htrack_end.png
 END
 vthumb.png
 K 25
 svn:wc:ra_dav:version-url
-V 101
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/Slider/vthumb.png
+V 114
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/Slider/vthumb.png
 END
 vthumb_down.png
 K 25
 svn:wc:ra_dav:version-url
-V 106
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/Slider/vthumb_down.png
+V 119
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/Slider/vthumb_down.png
 END
 vtrack_Disabled_end.png
 K 25
 svn:wc:ra_dav:version-url
-V 114
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/Slider/vtrack_Disabled_end.png
+V 127
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/Slider/vtrack_Disabled_end.png
 END

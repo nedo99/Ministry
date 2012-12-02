@@ -1,83 +1,83 @@
 K 25
 svn:wc:ra_dav:version-url
-V 67
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/modules
+V 80
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/modules
 END
 ISC_Grids.js
 K 25
 svn:wc:ra_dav:version-url
-V 80
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/modules/ISC_Grids.js
+V 93
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/modules/ISC_Grids.js
 END
 ISC_Core.js
 K 25
 svn:wc:ra_dav:version-url
-V 79
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/modules/ISC_Core.js
-END
-ISC_DataBinding.js
-K 25
-svn:wc:ra_dav:version-url
-V 86
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/modules/ISC_DataBinding.js
-END
-ISC_Scheduler.js
-K 25
-svn:wc:ra_dav:version-url
-V 84
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/modules/ISC_Scheduler.js
+V 92
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/modules/ISC_Core.js
 END
 ISC_Workflow.js
 K 25
 svn:wc:ra_dav:version-url
-V 83
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/modules/ISC_Workflow.js
+V 96
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/modules/ISC_Workflow.js
+END
+ISC_Scheduler.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/modules/ISC_Scheduler.js
+END
+ISC_DataBinding.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/modules/ISC_DataBinding.js
 END
 ISC_Calendar.js
 K 25
 svn:wc:ra_dav:version-url
-V 83
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/modules/ISC_Calendar.js
+V 96
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/modules/ISC_Calendar.js
 END
 ISC_PluginBridges.js
 K 25
 svn:wc:ra_dav:version-url
-V 88
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/modules/ISC_PluginBridges.js
+V 101
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/modules/ISC_PluginBridges.js
 END
 ISC_History.js
 K 25
 svn:wc:ra_dav:version-url
-V 82
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/modules/ISC_History.js
+V 95
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/modules/ISC_History.js
 END
 ISC_RichTextEditor.js
 K 25
 svn:wc:ra_dav:version-url
-V 89
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/modules/ISC_RichTextEditor.js
+V 102
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/modules/ISC_RichTextEditor.js
 END
 ISC_Forms.js
 K 25
 svn:wc:ra_dav:version-url
-V 80
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/modules/ISC_Forms.js
+V 93
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/modules/ISC_Forms.js
 END
 ISC_Foundation.js
 K 25
 svn:wc:ra_dav:version-url
-V 85
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/modules/ISC_Foundation.js
-END
-ISC_Containers.js
-K 25
-svn:wc:ra_dav:version-url
-V 85
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/modules/ISC_Containers.js
+V 98
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/modules/ISC_Foundation.js
 END
 ISC_Drawing.js
 K 25
 svn:wc:ra_dav:version-url
-V 82
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/modules/ISC_Drawing.js
+V 95
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/modules/ISC_Drawing.js
+END
+ISC_Containers.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/modules/ISC_Containers.js
 END

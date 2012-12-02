@@ -1,14 +1,14 @@
 9
 
 dir
-10
-http://f.etf.unsa.ba/svn/nedim-hadzic-nwt/trunk/src/ba/nwt/ministarstvo/client
+11
+http://f.etf.unsa.ba/svn/nedim-hadzic-nwt/trunk/Ministarstvo/src/ba/nwt/ministarstvo/client
 http://f.etf.unsa.ba/svn/nedim-hadzic-nwt
 
 
 
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
 
 
@@ -25,26 +25,18 @@ svn:special svn:externals svn:needs-lock
 
 
 30939660-8b42-4eec-8893-fb27a6d09626
-
-
-
-
-
-
-0
 
 GreetingService.java
 file
+15
 
 
 
-
-2012-05-11T12:20:55.000000Z
-64e49b575f4167c75927cbd1324c870f
-2012-05-11T17:16:18.448423Z
-10
+2012-06-07T00:22:47.000000Z
+0974856d9ac1c7601c6c724dad5cc6bb
+2012-06-08T21:55:46.089327Z
+15
 nh15234
-has-props
 
 
 
@@ -65,18 +57,53 @@ has-props
 
 
 
-399
+
+860
 
 GreetingServiceAsync.java
 file
+15
+
+
+
+2012-06-07T00:22:53.000000Z
+1ecac371b61352d8c4b1764a338d046b
+2012-06-08T21:55:46.089327Z
+15
+nh15234
 
 
 
 
-2012-05-11T12:20:58.000000Z
-658f282b62550af0e01f760fc477eeb3
-2012-05-11T17:16:18.448423Z
-10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+934
+
+Home.java
+file
+15
+
+
+
+2012-06-04T19:13:07.000000Z
+26f64d7d21e24fa6608584423c771a9b
+2012-06-08T21:55:46.089327Z
+15
 nh15234
 has-props
 
@@ -99,7 +126,7 @@ has-props
 
 
 
-350
+17148
 
 ItemSupplyLocalDS.java
 file
@@ -107,12 +134,12 @@ file
 
 
 
-2012-05-11T15:29:08.000000Z
+2012-05-12T10:15:49.000000Z
 f7713f29c0945b5be3da8562f0219199
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
-has-props
+
 
 
 
@@ -137,16 +164,15 @@ has-props
 
 Ministarstvo.java
 file
+15
 
 
 
-
-2012-05-11T15:40:42.000000Z
-9bba2fdda91ba709f4a687530d756ccf
-2012-05-11T17:16:18.448423Z
-10
+2012-06-08T21:48:03.000000Z
+1becb4e975346fb90257cbfc68b02f2f
+2012-06-08T21:55:46.089327Z
+15
 nh15234
-has-props
 
 
 
@@ -167,5 +193,6 @@ has-props
 
 
 
-5141
+
+4506
 

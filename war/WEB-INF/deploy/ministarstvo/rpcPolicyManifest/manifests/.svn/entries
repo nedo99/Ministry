@@ -1,14 +1,14 @@
 9
 
 dir
-10
-http://f.etf.unsa.ba/svn/nedim-hadzic-nwt/trunk/war/WEB-INF/deploy/ministarstvo/rpcPolicyManifest/manifests
+11
+http://f.etf.unsa.ba/svn/nedim-hadzic-nwt/trunk/Ministarstvo/war/WEB-INF/deploy/ministarstvo/rpcPolicyManifest/manifests
 http://f.etf.unsa.ba/svn/nedim-hadzic-nwt
 
 
 
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
 
 
@@ -25,13 +25,6 @@ svn:special svn:externals svn:needs-lock
 
 
 30939660-8b42-4eec-8893-fb27a6d09626
-
-
-
-
-
-
-0
 
 58A8F8266DEBCBEE7D11B05588E7F912.txt
 file
@@ -39,12 +32,12 @@ file
 
 
 
-2012-05-11T15:40:51.000000Z
+2012-05-12T10:16:51.000000Z
 b5763c416a1c567b85e3050902b37ade
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
-has-props
+
 
 
 

@@ -31,4 +31,11 @@
 		<nature>com.google.gwt.eclipse.core.gwtNature</nature>
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>war/ministarstvo/nwt-drugiprojekat.sql</name>
+			<type>1</type>
+			<location>/home/nedim/Documents/nwt-drugiprojekat.sql</location>
+		</link>
+	</linkedResources>
 </projectDescription>

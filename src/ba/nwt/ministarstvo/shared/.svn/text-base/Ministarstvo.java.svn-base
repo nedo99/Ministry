@@ -1,0 +1,9 @@
+package ba.nwt.ministarstvo.shared;
+
+import com.google.gwt.user.client.rpc.IsSerializable;
+
+public class Ministarstvo implements IsSerializable{
+	private int[] id;
+	
+
+}

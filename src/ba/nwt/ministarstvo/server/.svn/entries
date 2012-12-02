@@ -1,14 +1,14 @@
 9
 
 dir
-10
-http://f.etf.unsa.ba/svn/nedim-hadzic-nwt/trunk/src/ba/nwt/ministarstvo/server
+11
+http://f.etf.unsa.ba/svn/nedim-hadzic-nwt/trunk/Ministarstvo/src/ba/nwt/ministarstvo/server
 http://f.etf.unsa.ba/svn/nedim-hadzic-nwt
 
 
 
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
 
 
@@ -25,26 +25,18 @@ svn:special svn:externals svn:needs-lock
 
 
 30939660-8b42-4eec-8893-fb27a6d09626
-
-
-
-
-
-
-0
 
 GreetingServiceImpl.java
 file
+15
 
 
 
-
-2012-05-11T15:32:48.000000Z
-8c4d99379fddd81275557302ec7da302
-2012-05-11T17:16:18.448423Z
-10
+2012-06-08T21:52:02.000000Z
+eda765197c92f3e293799cfd89dbbeb3
+2012-06-08T21:55:46.089327Z
+15
 nh15234
-has-props
 
 
 
@@ -65,5 +57,6 @@ has-props
 
 
 
-2308
+
+8892
 

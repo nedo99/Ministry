@@ -1,23 +1,23 @@
 K 25
 svn:wc:ra_dav:version-url
-V 96
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/SchemaViewer
+V 109
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/SchemaViewer
 END
 complexType.gif
 K 25
 svn:wc:ra_dav:version-url
-V 112
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/SchemaViewer/complexType.gif
+V 125
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/SchemaViewer/complexType.gif
 END
 operation.png
 K 25
 svn:wc:ra_dav:version-url
-V 110
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/SchemaViewer/operation.png
+V 123
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/SchemaViewer/operation.png
 END
 simpleType.png
 K 25
 svn:wc:ra_dav:version-url
-V 111
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/skins/Enterprise/images/SchemaViewer/simpleType.png
+V 124
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/skins/Enterprise/images/SchemaViewer/simpleType.png
 END

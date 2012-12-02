@@ -1,14 +1,14 @@
 9
 
 dir
-10
-http://f.etf.unsa.ba/svn/nedim-hadzic-nwt/trunk/src/ba/nwt/ministarstvo
+11
+http://f.etf.unsa.ba/svn/nedim-hadzic-nwt/trunk/Ministarstvo/src/ba/nwt/ministarstvo
 http://f.etf.unsa.ba/svn/nedim-hadzic-nwt
 
 
 
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
 
 
@@ -25,26 +25,18 @@ svn:special svn:externals svn:needs-lock
 
 
 30939660-8b42-4eec-8893-fb27a6d09626
-
-
-
-
-
-
-0
 
 Ministarstvo.gwt.xml
 file
+12
 
 
 
-
-2012-05-11T12:15:33.000000Z
-a8bab5c49a617238794c8570b33fd77b
-2012-05-11T17:16:18.448423Z
-10
+2012-05-27T13:01:40.000000Z
+0d83c2758a1d576b991901315ebbf11a
+2012-05-27T20:49:25.768248Z
+12
 nh15234
-has-props
 
 
 
@@ -65,7 +57,8 @@ has-props
 
 
 
-1054
+
+1049
 
 client
 dir

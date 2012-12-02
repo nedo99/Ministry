@@ -1,14 +1,14 @@
 9
 
 dir
-10
-http://f.etf.unsa.ba/svn/nedim-hadzic-nwt/trunk/war
+11
+http://f.etf.unsa.ba/svn/nedim-hadzic-nwt/trunk/Ministarstvo/war
 http://f.etf.unsa.ba/svn/nedim-hadzic-nwt
 
 
 
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
 
 
@@ -25,13 +25,6 @@ svn:special svn:externals svn:needs-lock
 
 
 30939660-8b42-4eec-8893-fb27a6d09626
-
-
-
-
-
-
-0
 
 Ministarstvo.css
 file
@@ -39,12 +32,12 @@ file
 
 
 
-2012-05-10T22:00:32.000000Z
+2012-05-12T10:16:52.000000Z
 5e69af790a1242affb4761dd9162ea09
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
-has-props
+
 
 
 
@@ -73,12 +66,12 @@ file
 
 
 
-2012-05-11T12:18:12.000000Z
+2012-05-12T10:16:40.000000Z
 703d204179f455fcfd9dcc243d024d0f
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
-has-props
+
 
 
 
@@ -102,6 +95,9 @@ has-props
 2168
 
 WEB-INF
+dir
+
+images
 dir
 
 ministarstvo

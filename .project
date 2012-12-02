@@ -31,4 +31,16 @@
 		<nature>com.google.gwt.eclipse.core.gwtNature</nature>
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>war/ministarstvo/nwt-drugiprojekat.sql</name>
+			<type>1</type>
+			<location>/home/nedim/Documents/nwt-drugiprojekat.sql</location>
+		</link>
+		<link>
+			<name>src/ba/nwt/ministarstvo/client/log4j.properties</name>
+			<type>1</type>
+			<location>/home/nedim/workspace/Ministarstvo/war/WEB-INF/classes/log4j.properties</location>
+		</link>
+	</linkedResources>
 </projectDescription>

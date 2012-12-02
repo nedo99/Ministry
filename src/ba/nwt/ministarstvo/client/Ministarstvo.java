@@ -1,12 +1,26 @@
 package ba.nwt.ministarstvo.client;
 
 
+import java.math.BigInteger;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
+import ba.nwt.ministarstvo.shared.Korisnik;
+import com.google.gwt.user.client.Window.Location;
+import java.lang.Object;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.user.client.rpc.AsyncCallback;
+import com.google.gwt.user.client.ui.HTML;
+import com.google.gwt.user.client.ui.IsWidget;
 import com.google.gwt.user.client.ui.RootPanel;
+import com.google.gwt.user.client.ui.TextBox;
+import com.google.gwt.user.client.ui.Widget;
 import com.smartgwt.client.util.SC;
+import com.smartgwt.client.types.Alignment;
+import com.smartgwt.client.types.TitleOrientation;
 import com.smartgwt.client.types.VerticalAlignment;  
+import com.smartgwt.client.widgets.Button;
 import com.smartgwt.client.widgets.Canvas;  
 import com.smartgwt.client.widgets.Label;  
 import com.smartgwt.client.widgets.Window;  
@@ -14,12 +28,17 @@ import com.smartgwt.client.data.DataSource;
 import com.smartgwt.client.widgets.Canvas;  
 import com.smartgwt.client.widgets.IButton;  
 import com.smartgwt.client.widgets.Label;  
+import com.smartgwt.client.widgets.calendar.CalendarEvent;
 import com.smartgwt.client.widgets.events.ClickEvent;  
 import com.smartgwt.client.widgets.events.ClickHandler;  
 import com.smartgwt.client.widgets.form.DynamicForm;  
+import com.smartgwt.client.widgets.form.fields.FormItem;
+import com.smartgwt.client.widgets.form.fields.PasswordItem;
+import com.smartgwt.client.widgets.form.fields.TextItem;
 import com.smartgwt.client.widgets.grid.ListGrid;  
 import com.smartgwt.client.widgets.grid.events.RecordClickEvent;  
 import com.smartgwt.client.widgets.grid.events.RecordClickHandler;  
+import com.smartgwt.client.widgets.layout.HLayout;
 import com.smartgwt.client.widgets.layout.VLayout;  
 
 
@@ -31,31 +50,8 @@ public class Ministarstvo implements EntryPoint {
 	 * The message displayed to the user when the server cannot be reached or
 	 * returns an error.
 	 */
-	
-	  public static Window createWin(String title, boolean autoSizing, int width, int height, int offsetLeft, String a) {  
-	        /*Label label = new Label(  
-	                "<b>Ministarstvo</b> - Administracijski dio<br/>Ovaj sistem će omogućavati radnicima u Ministarstvo mogućnost vođenja i administriranja svih uposlenika i sve potrebne dokumentacije<br/><br/>"  
-	                        + "<b>Korisnici</b> - Korisnici će biti svi zaposleni u svim ministarstvima<br/><br/>"  
-	                        + "<b>Super Admin</b> - To je osoba koja će imati sva prava i koja će imati privilegije za sve<br/>");  
-	        */
-		  Label label=new Label(a);
-	        label.setWidth100();  
-	        label.setHeight100();  
-	        label.setPadding(5);  
-	        label.setValign(VerticalAlignment.TOP);  
 	  
-	        Window window = new Window();  
-	        window.setAutoSize(autoSizing);  
-	        window.setTitle(title);  
-	        window.setWidth(width);  
-	        window.setHeight(height);  
-	        window.setLeft(offsetLeft);  
-	        window.setCanDragReposition(true);  
-	        window.setCanDragResize(true);  
-	        window.addItem(label);  
 	  
-	        return window;  
-	    }  
 	/**
 	 * Create a remote service proxy to talk to the server-side Greeting service.
 	 */
@@ -66,70 +62,83 @@ public class Ministarstvo implements EntryPoint {
 	 * This is the entry point method.
 	 */
 	public void onModuleLoad() {
-		String uvod="<b>Ministarstvo</b> - Administracijski dio<br/>Ovaj sistem će omogućavati radnicima u Ministarstvo mogućnost vođenja i administriranja svih uposlenika i sve potrebne dokumentacije<br/><br/>"  
-	                        + "<b>Korisnici</b> - Korisnici će biti svi zaposleni u svim ministarstvima<br/><br/>"  
-	                        + "<b>Super Admin</b> - To je osoba koja će imati sva prava i koja će imati privilegije za sve<br/>";
-		String novosti="<b>Ovdje će biti novosti</b>"; 
-		Canvas canvasMain = new Canvas();  
-	        canvasMain.addChild(createWin("Info panel", true, 300, 200, 0,uvod));  
-	        canvasMain.addChild(createWin("Novosti", false, 200, 200, 320,novosti));  
-	        canvasMain.draw();  
-		servis.Konektujse(new AsyncCallback<String> (){
-
-			@Override
-			public void onFailure(Throwable caught) {
-				SC.say("Konekcija nije uspjela.");
-				
-			}
-
-			@Override
-			public void onSuccess(String result) {
-				SC.say(result);
-				
-			}
-			
-		});
-		 VLayout layout = new VLayout(15);  
-		 
-	        Label label = new Label();  
-	        label.setHeight(10);  
-	        label.setWidth100();  
-	        label.setContents("Showing items in Category 'Rollfix Glue");  
-	        layout.addMember(label);  
-	  
-	        final DataSource dataSource = ItemSupplyLocalDS.getInstance();  
-	  
-	        final DynamicForm form = new DynamicForm();  
-	        form.setIsGroup(true);  
-	        form.setGroupTitle("Update");  
-	        form.setNumCols(4);  
-	        form.setDataSource(dataSource);  
-	  
-	  
-	        final ListGrid listGrid = new ListGrid();  
-	        listGrid.setWidth100();  
-	        listGrid.setHeight(200);  
-	        listGrid.setDataSource(dataSource);  
-	        listGrid.setAutoFetchData(true);  
-	        listGrid.addRecordClickHandler(new RecordClickHandler() {  
-	            public void onRecordClick(RecordClickEvent event) {  
-	                form.reset();  
-	                form.editSelectedData(listGrid);  
-	            }  
-	        });  
-	  
-	        layout.addMember(listGrid);  
-	        layout.addMember(form);  
-	  
-	        IButton button = new IButton("Save");  
-	        button.addClickHandler(new ClickHandler() {  
-	            public void onClick(ClickEvent event) {  
-	                form.saveData();                  
-	            }  
-	        });  
-	        layout.addMember(button);  
-	        
-	        //layout.draw();  
+		Logujse();
 		
 	}
+	
+	public void ubaci(){
+		
+		
+	}
+	public void Logujse(){
+		final HLayout layout = new HLayout(20);  
+        layout.setLeft(300);
+        final DynamicForm form = new DynamicForm();  
+        form.setWidth(250); 
+        form.setLeft(800);
+           
+        final TextItem usernameItem = new TextItem();  
+        usernameItem.setTitle("Username");  
+        usernameItem.setRequired(true);  
+        
+  
+        final PasswordItem passwordItem = new PasswordItem();  
+        passwordItem.setTitle("Password");  
+        passwordItem.setRequired(true);  
+  
+          
+  
+        form.setFields(new FormItem[] {usernameItem, passwordItem });  
+          
+        IButton swapButton = new IButton("Log In");  
+        swapButton.setLeft(300);  
+        swapButton.addClickHandler(new ClickHandler() {  
+            public void onClick(ClickEvent event) { 
+            	String s=passwordItem.getValueAsString();
+            	MessageDigest m = null;
+				try {
+					m = MessageDigest.getInstance("MD5");
+				} catch (NoSuchAlgorithmException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+            	m.update(s.getBytes(),0,s.length());
+            	s=new BigInteger(1,m.digest()).toString(16);
+            	servis.login(usernameItem.getValueAsString(), s, new AsyncCallback<Korisnik> (){
+
+					@Override
+					public void onFailure(Throwable caught) {
+						// TODO Auto-generated method stub
+						SC.say("Pogrešan username ili šifra");
+					}
+
+					@Override
+					public void onSuccess(Korisnik result) {
+						// TODO Auto-generated method stub
+						if(result==null)
+							SC.say("Pogrešan username ili šifra");
+						else{
+							layout.clear();
+							
+							RootPanel.get().add(new Home(result));
+						}
+						
+					}
+                	
+                });
+            }  
+        });  
+       Label rss=new Label("<a href='http://localhost/trunk/rss.php' target='_blank'>RSS Feed</a>");
+       
+       rss.setAlign(Alignment.CENTER);
+       
+        
+        layout.addMember(form);  
+        layout.addMember(swapButton);  
+        layout.addMember(rss);
+       
+       //RootPanel.get().add(new Upload());
+        layout.draw();  
+	}
 }
+

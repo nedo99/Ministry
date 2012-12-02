@@ -1,14 +1,14 @@
 9
 
 dir
-9
-http://f.etf.unsa.ba/svn/nedim-hadzic-nwt/trunk
+11
+http://f.etf.unsa.ba/svn/nedim-hadzic-nwt/trunk/Ministarstvo
 http://f.etf.unsa.ba/svn/nedim-hadzic-nwt
 
 
 
-2012-04-25T09:57:02.528461Z
-9
+2012-05-11T19:27:25.472721Z
+11
 nh15234
 
 
@@ -28,16 +28,16 @@ svn:special svn:externals svn:needs-lock
 
 .classpath
 file
-10
 
 
 
-2012-05-11T12:19:28.000000Z
+
+2012-05-12T10:15:49.000000Z
 d6c3eb6e14f88656272a090b0a4c164e
-2012-05-11T17:16:18.448423Z
-10
+2012-05-11T19:27:25.472721Z
+11
 nh15234
-has-props
+
 
 
 
@@ -65,16 +65,15 @@ dir
 
 .project
 file
-10
+13
 
 
 
-2012-05-10T22:00:38.000000Z
-51daa60805befa123ce97d2cba772f34
-2012-05-11T17:16:18.448423Z
-10
+2012-05-27T20:53:13.000000Z
+2b7e07a887152ff65d04fcd774984abe
+2012-05-27T20:54:19.024992Z
+13
 nh15234
-has-props
 
 
 
@@ -95,21 +94,22 @@ has-props
 
 
 
-891
+
+1090
 
 .settings
 dir
 
-admin.php
+nwt-drugiprojekat.sql
 file
+13
 
 
 
-
-2012-05-11T16:56:03.000000Z
-6dbb2526ed20714f4e329179238e575e
-2012-04-25T09:57:02.528461Z
-9
+2012-05-27T20:50:00.000000Z
+65672d50f300a2079a51dc7a96ffe533
+2012-05-27T20:54:19.024992Z
+13
 nh15234
 
 
@@ -132,232 +132,15 @@ nh15234
 
 
 
-7571
-
-baza.php
-file
-
-
-
-
-2012-05-11T16:56:01.000000Z
-d8e5be86852ed87dc3fc6a45d4790e0c
-2012-04-25T09:57:02.528461Z
-9
-nh15234
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-450
-
-css
-dir
-
-elementi.php
-file
-
-
-
-
-2012-05-11T16:56:03.000000Z
-e2403343dc652385a13c8d1fff9b59b3
-2012-04-25T09:57:02.528461Z
-9
-nh15234
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1128
-
-gwt-unitCache
-dir
-
-
-
-add
-
-images
-dir
-
-index.php
-file
-
-
-
-
-2012-05-11T16:56:03.000000Z
-2626bba12d7e971b2900bef840dcd5c8
-2012-04-25T09:57:02.528461Z
-9
-nh15234
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10396
-
-nbproject
-dir
-
-novosti.php
-file
-
-
-
-
-2012-05-11T16:56:02.000000Z
-c8196ef3bd695fc2e51d403bdbb581ce
-2012-03-20T18:28:30.529722Z
-7
-nh15234
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-455
-
-nwt.sql
-file
-
-
-
-
-2012-05-11T16:56:02.000000Z
-d49ee28ddfd2bfd4b3a23ae10b2a26f2
-2012-03-29T15:28:53.045848Z
-8
-nh15234
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8983
-
-sadrzaj.php
-file
-
-
-
-
-2012-05-11T16:56:01.000000Z
-a5295b7d15f8ed2d2b038a951cf44420
-2012-04-25T09:57:02.528461Z
-9
-nh15234
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3797
+10675
 
 src
 dir
 
 test
+dir
+
+test-classes
 dir
 
 war

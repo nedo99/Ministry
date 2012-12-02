@@ -1,0 +1,496 @@
+package ba.nwt.ministarstvo.client;
+
+
+
+
+import java.util.Date;
+
+import ba.nwt.ministarstvo.shared.Kalendar;
+import ba.nwt.ministarstvo.shared.Korisnik;
+import ba.nwt.ministarstvo.shared.Novost;
+import ba.nwt.ministarstvo.shared.Novosti;
+import ba.nwt.ministarstvo.shared.Preporuci;
+
+import com.smartgwt.client.widgets.calendar.Calendar;
+import com.smartgwt.client.widgets.calendar.CalendarEvent; 
+import com.google.gwt.core.client.GWT;
+import com.google.gwt.user.client.rpc.AsyncCallback;
+import com.google.gwt.user.client.ui.HorizontalPanel;
+import com.smartgwt.client.data.DataSource;
+import com.smartgwt.client.data.fields.DataSourceDateField;
+import com.smartgwt.client.data.fields.DataSourceSequenceField;
+import com.smartgwt.client.data.fields.DataSourceTextField;
+
+import com.smartgwt.client.types.Alignment;
+import com.smartgwt.client.types.DateDisplayFormat;
+import com.smartgwt.client.types.SelectionStyle;
+import com.smartgwt.client.types.TimeFormatter;
+import com.smartgwt.client.types.VerticalAlignment;
+import com.smartgwt.client.util.SC;
+import com.smartgwt.client.widgets.Canvas;
+import com.smartgwt.client.widgets.IButton;
+import com.smartgwt.client.widgets.IconButton;
+import com.smartgwt.client.widgets.Label;
+import com.smartgwt.client.widgets.Window;
+
+import com.smartgwt.client.widgets.events.ClickEvent;
+import com.smartgwt.client.widgets.events.ClickHandler;
+
+import com.smartgwt.client.widgets.form.DynamicForm;
+import com.smartgwt.client.widgets.grid.ListGrid;
+import com.smartgwt.client.widgets.grid.ListGridField;
+import com.smartgwt.client.widgets.grid.ListGridRecord;
+import com.smartgwt.client.widgets.grid.events.RecordClickEvent;
+import com.smartgwt.client.widgets.grid.events.RecordClickHandler;
+import com.smartgwt.client.widgets.grid.events.SelectionChangedHandler;
+import com.smartgwt.client.widgets.grid.events.SelectionEvent;
+import com.smartgwt.client.widgets.layout.HLayout;
+import com.smartgwt.client.widgets.layout.VLayout;
+import com.smartgwt.client.widgets.menu.IconMenuButton;
+import com.smartgwt.client.widgets.menu.Menu;
+import com.smartgwt.client.widgets.toolbar.RibbonBar;
+import com.smartgwt.client.widgets.toolbar.RibbonGroup;
+ 
+
+public class Home extends HorizontalPanel{
+	final Calendar calendar = new Calendar();  
+	final DataSource eventDS = new DataSource();  
+	CalendarEvent[] nek;
+	HLayout layout = new HLayout();  
+	VLayout vLayout = new VLayout(); 
+	HLayout donji = new HLayout();
+	HLayout hLayout = new HLayout();
+	HLayout main = new HLayout();
+	private final GreetingServiceAsync servis = GWT
+			.create(GreetingService.class);
+	private Novosti n=new Novosti();
+	Korisnik k=new Korisnik();
+	 public static Window createWin(String title, boolean autoSizing, int width, int height, int offsetLeft, String a) {  
+	        /*Label label = new Label(  
+	                "<b>Ministarstvo</b> - Administracijski dio<br/>Ovaj sistem će omogućavati radnicima u Ministarstvo mogućnost vođenja i administriranja svih uposlenika i sve potrebne dokumentacije<br/><br/>"  
+	                        + "<b>Korisnici</b> - Korisnici će biti svi zaposleni u svim ministarstvima<br/><br/>"  
+	                        + "<b>Super Admin</b> - To je osoba koja će imati sva prava i koja će imati privilegije za sve<br/>");  
+	        */
+		  Label label=new Label(a);
+	        label.setWidth100();  
+	        label.setHeight100();  
+	        label.setPadding(5);  
+	        label.setValign(VerticalAlignment.TOP);  
+	  
+	        Window window = new Window();  
+	        window.setAutoSize(autoSizing);  
+	        window.setTitle(title);  
+	        window.setWidth(width);  
+	        window.setHeight(height);  
+	        window.setLeft(offsetLeft);  
+	        window.setCanDragReposition(true);  
+	        window.setCanDragResize(true);  
+	        window.addItem(label);  
+	        
+	        return window;  
+	    }  
+	public Home(Korisnik kor){
+		k=kor;
+		layout.setWidth100();  
+	    layout.setHeight100();  
+	    layout.setMembersMargin(0); 
+  
+         
+        vLayout.setShowEdges(true);  
+        vLayout.setWidth(550);  
+        vLayout.setMembersMargin(5);  
+        vLayout.setLayoutMargin(5);  
+         
+        layout.addMember(vLayout);  
+      
+        
+          
+        hLayout.setShowEdges(true);  
+        hLayout.setHeight(100); 
+        hLayout.setWidth100();
+        hLayout.setMembersMargin(5);  
+        hLayout.setLayoutMargin(5);  
+        main.setShowEdges(true);  
+        main.setHeight100(); 
+        main.setMembersMargin(5);  
+        main.setLayoutMargin(5);
+        donji.setShowEdges(true);  
+        donji.setWidth(getOffsetWidth());
+        donji.setWidth100();
+        donji.setHeight("78%");
+        donji.setMembersMargin(5);  
+        donji.setLayoutMargin(5);
+        donji.setTop(140);
+        main.addChild(hLayout);  
+        main.addChild(donji);
+        layout.addMember(main);
+        dodajmenu();
+        dodajkalendar();
+        layout.draw();  
+		
+	}
+	public void Postavi(Novosti nov){
+		n=nov;
+	}
+	
+	
+	
+	public void dodajkalendar(){
+		DataSourceSequenceField eventIdField = new DataSourceSequenceField("eventId");  
+	    eventIdField.setPrimaryKey(true);  
+
+	    DataSourceTextField nameField = new DataSourceTextField("name");  
+	    DataSourceTextField descField = new DataSourceTextField("description");  
+	    DataSourceDateField startDateField = new DataSourceDateField("startDate");  
+	    DataSourceDateField endDateField = new DataSourceDateField("endDate"); 
+	    eventDS.setFields(eventIdField, nameField, descField, startDateField, endDateField);  
+	    eventDS.setClientOnly(true);
+	    servis.dajkalendar(k.getid(), new AsyncCallback<Kalendar>(){
+
+			@Override
+			public void onFailure(Throwable caught) {
+				// TODO Auto-generated method stub
+				SC.say(caught.getMessage());
+			}
+
+			@Override
+			public void onSuccess(Kalendar result) {
+				// TODO Auto-generated method stub
+				if(result==null) SC.say("Došlo je do greške prilikom učitavanja podataka");
+				else{
+					CalendarEvent[] c=postavikalendar(result);
+					SC.say(c[0].getStartDate().toString());
+					
+			
+				}
+			}
+	    	
+	    });
+	    
+
+	     
+	      
+        //use 24 hr based times  
+        calendar.setTimeFormatter(TimeFormatter.TOSHORT24HOURTIME);  
+  
+        //use european based DD/MM/YYYY date formats  
+        calendar.setDateFormatter(DateDisplayFormat.TOEUROPEANSHORTDATE);  
+        //calendar.setDataSource(eventDS);  
+        CalendarEvent[] cal1=new CalendarEvent[1];
+		cal1[0]=new CalendarEvent(1, "Meeting", "Shareholders meeting: monthly forecast report", new Date(2012, 6, 1 + 2, 9, 0, 0), new Date(2012, 6, 2 + 2, 14, 0, 0));
+		calendar.setData(cal1);
+        //calendar.setAutoFetchData(true);  
+        
+        vLayout.addChild(calendar); 
+       
+	}
+	
+	public CalendarEvent[] postavikalendar(Kalendar kal){
+		CalendarEvent[] cal=new CalendarEvent[kal.getbroj()];
+		for(int i=0; i<kal.getbroj(); i++){
+			SC.say(kal.getod(i).toString());
+			CalendarEvent c=new CalendarEvent(kal.getid(i),kal.getnaziv(i), kal.getopis(i), new Date(kal.getod(i).getYear(), kal.getod(i).getMonth(), kal.getod(i).getDay(), kal.getod(i).getHours(), kal.getod(i).getMinutes(),0), new Date(kal.getdo(i).getYear(), kal.getdo(i).getMonth(), kal.getdo(i).getDay(), kal.getdo(i).getHours(), kal.getdo(i).getMinutes(),0));
+			cal[i]=c;
+			/*nek[i].setName(kal.getnaziv(i));
+			nek[i].setDescription(kal.getopis(i));
+			nek[i].setStartDate(kal.getod(i));
+			nek[i].setEndDate(kal.getdo(i));*/
+		}
+		
+		
+		return cal;
+	}
+	
+	public void dodajmenu(){
+		RibbonBar ribbonBar = new RibbonBar();  
+        ribbonBar.setLeft(0);  
+        ribbonBar.setTop(75);  
+        ribbonBar.setWidth100();  
+  
+        ribbonBar.setMembersMargin(2);  
+        ribbonBar.setLayoutMargin(0);  
+  
+        Menu menu = new Menu();  
+  
+        RibbonGroup fileGroup = new RibbonGroup();  
+        fileGroup.setTitle("Menu");  
+        fileGroup.setTitleAlign(Alignment.CENTER);  
+        fileGroup.setNumRows(1);  
+        fileGroup.setRowHeight(76); 
+        
+        
+        fileGroup.addControl(getIconMenuButton("New", "piece_blue", menu, true)); 
+        IconButton open = new IconButton();
+        open=getIconButton("Novosti", "star_yellow", true);
+        fileGroup.addControl(open);
+        IconButton sacuvajkalendar = new IconButton();
+        sacuvajkalendar=getIconButton("Sacuvaj kalendar", "pawn_red", true);
+        fileGroup.addControl(sacuvajkalendar);  
+        fileGroup.addControl(getIconMenuButton("Save As", "cube_green", menu, true));  
+  
+         
+        fileGroup.addControl(getIconButton("Edit", "piece_blue", false));  
+        fileGroup.addControl(getIconButton("Copy", "pawn_green", false));  
+        fileGroup.addControl(getIconButton("Paste", "cube_yellow", false));  
+        
+        
+        sacuvajkalendar.addClickHandler(new ClickHandler(){
+
+			@Override
+			public void onClick(ClickEvent event) {
+				// TODO Auto-generated method stub
+				 
+				CalendarEvent[] kal=new CalendarEvent[ calendar.getData().length];
+				kal=(CalendarEvent[]) calendar.getData();
+
+			    Kalendar kl=new Kalendar(kal.length);
+			    for(int i=0; i<kal.length; i++){
+			    	
+			    	SC.say(Integer.toString(k.getid()));
+			    	kl.dodaj(kal[i].getAttributeAsInt("eventId"), kal[i].getAttributeAsString("name") , kal[i].getAttributeAsString("description") , kal[i].getAttributeAsDate("startDate"), kal[i].getAttributeAsDate("endDate"));
+			    }
+			   
+				servis.updatekalendar(kl, k.getid(), new AsyncCallback<String> (){
+
+					@Override
+					public void onFailure(Throwable caught) {
+						// TODO Auto-generated method stub
+						
+						SC.say(caught.getMessage());
+					}
+
+					@Override
+					public void onSuccess(String result) {
+						// TODO Auto-generated method stub
+						SC.say(result);
+						
+					}
+					
+				});
+				
+			}
+        	
+        });
+        open.addClickHandler(new ClickHandler(){
+
+			@Override
+			public void onClick(ClickEvent event) {
+				// TODO Auto-generated method stub
+				Novosti();
+			}
+        	
+        });
+         
+        fileGroup.addControl(getIconMenuButton("Picture", null, menu, false));  
+        fileGroup.addControl(getIconButton("Link", "pawn_white", false));  
+        fileGroup.addControl(getIconButton("Document", "star_yellow", false));  
+        fileGroup.addControl(getIconButton("Video", "piece_red", false));  
+  
+        ribbonBar.addMember(fileGroup);  
+        
+        hLayout.addMember(ribbonBar);
+        //ribbonBar.draw();  
+	}
+	
+	private IconButton getIconButton(String title, String iconName, boolean vertical) {  
+        IconButton button = new IconButton(title);  
+        button.setTitle(title);  
+        if (iconName == null) iconName = "cube_blue";  
+        button.setIcon("/images/" + iconName + ".png");  
+        button.setLargeIcon("/images/" + iconName + ".png");  
+        if (vertical == true) button.setOrientation("vertical");  
+        return button;  
+    }  
+  
+    private IconMenuButton getIconMenuButton(String title, String iconName, Menu menu, boolean vertical) {  
+        IconMenuButton button = new IconMenuButton();  
+        button.setTitle(title);  
+        if (iconName == null) iconName = "cube_blue";  
+        button.setIcon("/images/" + iconName + ".png");  
+        button.setLargeIcon("/images/" + iconName + ".png");  
+        if (vertical == true) button.setOrientation("vertical");  
+        if (menu != null) button.setMenu(menu);  
+  
+        button.setShowMenuIcon(true);  
+        return button;  
+    }  
+    
+    
+	public void Novosti(){
+		final ListGrid countryGrid = new ListGrid();  
+        countryGrid.setWidth(500);  
+        countryGrid.setHeight(224);  
+        countryGrid.setShowAllRecords(true);  
+        countryGrid.setSelectionType(SelectionStyle.SINGLE);  
+  
+        
+        ListGridField id = new ListGridField("id", "ID");  
+        ListGridField nameField = new ListGridField("naziv", "Novost");  
+        ListGridField capitalField = new ListGridField("datum", "Vrijeme objave");  
+        ListGridField continentField = new ListGridField("ministarstvo", "Ministarstvo");  
+        countryGrid.setFields(id, nameField, capitalField, continentField);  
+        
+        final Canvas canvasMain = new Canvas();  
+        Canvas canvas = new Canvas(); 
+        canvasMain.setTop(250);
+        
+        servis.ucitajNovosti(new AsyncCallback<Novosti> (){
+
+			@Override
+			public void onFailure(Throwable caught) {
+				// TODO Auto-generated method stub
+				SC.say("Doslo je do greske!");
+			}
+
+			@Override
+			public void onSuccess(Novosti result) {
+				// TODO Auto-generated method stub
+				if(result==null)
+					SC.say("nema nista");
+				else{
+					n=result;
+					Postavi(result);
+					for(int i=0;i<n.getbroj(); i++){
+						ListGridRecord r1=new ListGridRecord();
+						Novost n1=new Novost();
+				        n1=n.dajnovost(i);
+				        r1.setAttribute("id", n1.getid());
+				        r1.setAttribute("naziv", n1.getnaziv());
+				        r1.setAttribute("datum", n1.getdatum().toString());
+				        r1.setAttribute("ministarstvo", n1.getministarstvo());
+				        countryGrid.addData(r1);
+					}       		        
+			        
+			       
+					
+				}
+			}
+
+			
+        	
+        });
+        
+        countryGrid.addSelectionChangedHandler(new SelectionChangedHandler() {  
+            public void onSelectionChanged(SelectionEvent event) {  
+            	ListGridRecord r=countryGrid.getSelectedRecord();
+                int id=Integer.parseInt(r.getAttributeAsString("id"));
+                Novost nov=new Novost();
+                nov=n.dajnovostpoid(id);
+                //canvasMain.clear();
+                canvasMain.addChild(createWin(r.getAttributeAsString("naziv"), false, 600, 200, 0,nov.getopis()));  
+                servis.ProcitaoVijest(id, k.getid(), new AsyncCallback<Preporuci>(){
+
+					@Override
+					public void onFailure(Throwable caught) {
+						// TODO Auto-generated method stub
+						SC.say("Doslo je do grekse prilikom upisa pregleda vijesti");
+					}
+
+					@Override
+					public void onSuccess(Preporuci result) {
+						// TODO Auto-generated method stub
+						int vrij=result.Proracunaj();
+						Novost nov=new Novost();
+						nov=n.dajnovostpoid(vrij);
+						
+						final VLayout layout = new VLayout();  
+				        layout.setMembersMargin(10);  
+				  
+				        final Label label = new Label("Preporucujemo vijest: "+nov.getnaziv());  
+				        label.setParentElement(layout);  
+				        label.setShowEdges(true);  
+				        label.setBackgroundColor("#ffffd0");  
+				        label.setPadding(5);  
+				        label.setWidth(200);  
+				        label.setTop(50);  
+				        label.setLeft(-220); //start off screen  
+				        label.setValign(VerticalAlignment.CENTER);  
+				        label.setAlign(Alignment.CENTER);  
+				        label.setAnimateTime(1200); // milliseconds  
+				  
+				         
+				        label.animateMove(0, 50);  
+				  
+				            
+				        IButton moveOutButton = new IButton();  
+				        moveOutButton.setTitle("Move Out");  
+				        moveOutButton.addClickHandler(new ClickHandler() {  
+				            public void onClick(ClickEvent event) {  
+				                label.animateMove(-1020, 50);  
+				                //layout.clear();
+				            }  
+				        });  
+				  
+				        HLayout hLayout = new HLayout();  
+				        hLayout.setMembersMargin(10);  
+				         
+				        hLayout.addMember(moveOutButton);  
+				        layout.addMember(hLayout);  
+				        layout.setLeft(610);
+				        layout.setTop(250);
+				        layout.draw();  
+					}
+                	
+                });
+            }  
+        });  
+  
+        canvas.addChild(countryGrid);  
+        
+  
+         
+          
+		
+		String novosti="<b>Kliknite na novost da bi se prikazala</b>"; 
+		
+	
+		canvasMain.addChild(createWin("Novosti", false, 600, 200, 0,novosti));  
+		//canvasMain.draw();  
+		
+		VLayout layout = new VLayout(15);  
+		
+		Label label = new Label();  
+		label.setHeight(10);  
+		label.setWidth100();  
+		label.setContents("Showing items in Category 'Rollfix Glue");  
+		layout.addMember(label);  
+		
+		final DataSource dataSource = ItemSupplyLocalDS.getInstance();  
+		
+		final DynamicForm form = new DynamicForm();  
+		form.setIsGroup(true);  
+		form.setGroupTitle("Update");  
+		form.setNumCols(4);  
+		form.setDataSource(dataSource);  
+		
+		
+		final ListGrid listGrid = new ListGrid();  
+		listGrid.setWidth100();  
+		listGrid.setHeight(200);  
+		listGrid.setDataSource(dataSource);  
+		listGrid.setAutoFetchData(true);  
+		listGrid.addRecordClickHandler(new RecordClickHandler() {  
+		    public void onRecordClick(RecordClickEvent event) {  
+		        form.reset();  
+		        form.editSelectedData(listGrid);  
+		    }  
+		});  
+		
+		layout.addMember(listGrid);  
+		layout.addMember(form);  
+		
+		IButton button = new IButton("Save");  
+		button.addClickHandler(new ClickHandler() {  
+		    public void onClick(ClickEvent event) {  
+		        form.saveData();                  
+		    }  
+		});  
+		layout.addMember(button);  
+		
+		//layout.draw();  
+		donji.addChild(canvas);
+		donji.addChild(canvasMain);
+	
+	}
+
+}

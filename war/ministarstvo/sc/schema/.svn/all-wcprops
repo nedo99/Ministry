@@ -1,113 +1,113 @@
 K 25
 svn:wc:ra_dav:version-url
-V 66
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/schema
+V 79
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/schema
 END
 WebServiceOperation.ds.xml
 K 25
 svn:wc:ra_dav:version-url
-V 93
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/schema/WebServiceOperation.ds.xml
+V 106
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/schema/WebServiceOperation.ds.xml
 END
 DataSource.ds.xml
 K 25
 svn:wc:ra_dav:version-url
-V 84
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/schema/DataSource.ds.xml
+V 97
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/schema/DataSource.ds.xml
 END
 JVMClassTreeDS.ds.xml
 K 25
 svn:wc:ra_dav:version-url
-V 88
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/schema/JVMClassTreeDS.ds.xml
+V 101
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/schema/JVMClassTreeDS.ds.xml
 END
 WSDLMessage.ds.xml
 K 25
 svn:wc:ra_dav:version-url
-V 85
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/schema/WSDLMessage.ds.xml
+V 98
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/schema/WSDLMessage.ds.xml
 END
 SchemaSet.ds.xml
 K 25
 svn:wc:ra_dav:version-url
-V 83
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/schema/SchemaSet.ds.xml
+V 96
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/schema/SchemaSet.ds.xml
 END
 WebService.ds.xml
 K 25
 svn:wc:ra_dav:version-url
-V 84
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/schema/WebService.ds.xml
+V 97
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/schema/WebService.ds.xml
 END
 XSElement.ds.xml
 K 25
 svn:wc:ra_dav:version-url
-V 83
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/schema/XSElement.ds.xml
+V 96
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/schema/XSElement.ds.xml
 END
 QuartzScheduler.ds.xml
 K 25
 svn:wc:ra_dav:version-url
-V 89
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/schema/QuartzScheduler.ds.xml
+V 102
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/schema/QuartzScheduler.ds.xml
 END
 DBSchema.ds.xml
 K 25
 svn:wc:ra_dav:version-url
-V 82
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/schema/DBSchema.ds.xml
+V 95
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/schema/DBSchema.ds.xml
 END
 DataSourceStore.ds.xml
 K 25
 svn:wc:ra_dav:version-url
-V 89
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/schema/DataSourceStore.ds.xml
+V 102
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/schema/DataSourceStore.ds.xml
 END
 WSOperationHeader.ds.xml
 K 25
 svn:wc:ra_dav:version-url
-V 91
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/schema/WSOperationHeader.ds.xml
+V 104
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/schema/WSOperationHeader.ds.xml
 END
 QuartzTriggers.ds.xml
 K 25
 svn:wc:ra_dav:version-url
-V 88
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/schema/QuartzTriggers.ds.xml
+V 101
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/schema/QuartzTriggers.ds.xml
 END
 DataSourceField.ds.xml
 K 25
 svn:wc:ra_dav:version-url
-V 89
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/schema/DataSourceField.ds.xml
+V 102
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/schema/DataSourceField.ds.xml
 END
 Validator.ds.xml
 K 25
 svn:wc:ra_dav:version-url
-V 83
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/schema/Validator.ds.xml
+V 96
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/schema/Validator.ds.xml
 END
 QuartzJobs.ds.xml
 K 25
 svn:wc:ra_dav:version-url
-V 84
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/schema/QuartzJobs.ds.xml
+V 97
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/schema/QuartzJobs.ds.xml
 END
 XSComplexType.ds.xml
 K 25
 svn:wc:ra_dav:version-url
-V 87
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/schema/XSComplexType.ds.xml
+V 100
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/schema/XSComplexType.ds.xml
 END
 SimpleType.ds.xml
 K 25
 svn:wc:ra_dav:version-url
-V 84
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/schema/SimpleType.ds.xml
+V 97
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/schema/SimpleType.ds.xml
 END
 DBListDS.ds.xml
 K 25
 svn:wc:ra_dav:version-url
-V 82
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/war/ministarstvo/sc/schema/DBListDS.ds.xml
+V 95
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/war/ministarstvo/sc/schema/DBListDS.ds.xml
 END

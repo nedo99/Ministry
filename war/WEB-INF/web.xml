@@ -15,6 +15,54 @@
     <servlet-name>greetServlet</servlet-name>
     <url-pattern>/ministarstvo/greet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>FileUpload</servlet-name>
+    <servlet-class>ba.nwt.ministarstvo.server.FileUploadImpl</servlet-class>
+</servlet>
+ 
+<servlet-mapping>
+    <servlet-name>FileUpload</servlet-name>
+    <url-pattern>/ministarstvo/File</url-pattern>
+</servlet-mapping>
+
+
+
+
+     <servlet>
+          <servlet-name>MusicUploadService</servlet-name>
+          <servlet-class>
+               ba.nwt.ministarstvo.server.fileUpload.FileUploadServlet
+          </servlet-class>
+           
+          <init-param>
+              <param-name>action-class</param-name>
+               
+              <!-- Replace the action class name below with the fully qualified name of the action class -->
+              <param-value>ba.nwt.ministarstvo.server.FileUploadActionImpl</param-value>
+          </init-param>
+      </servlet>
+
+      <servlet-mapping>
+          <servlet-name>MusicUploadService</servlet-name>
+          <url-pattern>/ministarstvo/services/upl</url-pattern>
+      </servlet-mapping>
+      
+       <servlet>
+          <servlet-name>DownloadFile</servlet-name>
+          <servlet-class>
+               ba.nwt.ministarstvo.server.DownloadFile
+          </servlet-class>
+           
+          
+      </servlet>
+
+      <servlet-mapping>
+          <servlet-name>DownloadFile</servlet-name>
+          <url-pattern>/ministarstvo/services/down</url-pattern>
+      </servlet-mapping>
+      
+
+
   
   <!-- Default page to serve -->
   <welcome-file-list>

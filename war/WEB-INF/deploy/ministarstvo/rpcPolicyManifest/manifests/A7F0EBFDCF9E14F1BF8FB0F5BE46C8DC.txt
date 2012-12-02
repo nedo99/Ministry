@@ -1,0 +1,2 @@
+serviceClass: ba.nwt.ministarstvo.client.GreetingService
+path: B45A34D3D38BFF77094C3831B3540B97.gwt.rpc

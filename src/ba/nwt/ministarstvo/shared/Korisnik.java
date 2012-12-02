@@ -1,8 +1,11 @@
 package ba.nwt.ministarstvo.shared;
 
-import com.smartgwt.client.docs.Date;
+import java.sql.Date;
 
-public class Korisnik {
+import com.google.gwt.user.client.rpc.IsSerializable;
+
+
+public class Korisnik implements IsSerializable{
 	private int id;
 	private String ime;
 	private String prezime;
@@ -15,6 +18,7 @@ public class Korisnik {
 	private Date datum_registracije;
 	private String username;
 	private String pass;
+	private String tip;
 	public Korisnik(){
 		id=0;
 		ime="";
@@ -28,8 +32,9 @@ public class Korisnik {
 		datum_registracije=null;
 		username="";
 		pass="";
+		tip="";
 	}
-	public void Postavi(int i, String im, String p, String tel, String j, String m, String a, String g, Date dr, Date dreg, String u, String pass1){
+	public void Postavi(int i, String im, String p, String tel, String j, String m, String a, String g, Date dr, Date dreg, String u, String pass1, String ti){
 		id=i;
 		ime=im;
 		prezime=p;
@@ -42,6 +47,7 @@ public class Korisnik {
 		datum_registracije=dreg;
 		username=u;
 		pass=p;
+		tip=ti;
 	}
 	public int getid(){return id;}
 	public String getime(){return ime;}
@@ -51,6 +57,7 @@ public class Korisnik {
 	public String getmail(){return mail;}
 	public String getadresa(){return adresa;}
 	public String getgrad(){return grad;}
+	public String gettip(){return tip;}
 	public Date getdatum_rodjenja(){return datum_rodjenja;}
 	public Date getdatum_registracije(){return datum_registracije;}
 	public String getusername(){return username;}

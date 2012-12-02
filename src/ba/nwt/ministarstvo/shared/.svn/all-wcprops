@@ -1,23 +1,53 @@
 K 25
 svn:wc:ra_dav:version-url
-V 70
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/src/ba/nwt/ministarstvo/shared
+V 83
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/src/ba/nwt/ministarstvo/shared
 END
 FieldVerifier.java
 K 25
 svn:wc:ra_dav:version-url
-V 89
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/src/ba/nwt/ministarstvo/shared/FieldVerifier.java
+V 102
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/src/ba/nwt/ministarstvo/shared/FieldVerifier.java
+END
+Novosti.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/nedim-hadzic-nwt/!svn/ver/12/trunk/Ministarstvo/src/ba/nwt/ministarstvo/shared/Novosti.java
+END
+Novost.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/nedim-hadzic-nwt/!svn/ver/12/trunk/Ministarstvo/src/ba/nwt/ministarstvo/shared/Novost.java
+END
+Preporuci.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/nedim-hadzic-nwt/!svn/ver/12/trunk/Ministarstvo/src/ba/nwt/ministarstvo/shared/Preporuci.java
 END
 Korisnici.java
 K 25
 svn:wc:ra_dav:version-url
-V 85
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/src/ba/nwt/ministarstvo/shared/Korisnici.java
+V 98
+/svn/nedim-hadzic-nwt/!svn/ver/11/trunk/Ministarstvo/src/ba/nwt/ministarstvo/shared/Korisnici.java
 END
 Korisnik.java
 K 25
 svn:wc:ra_dav:version-url
-V 84
-/svn/nedim-hadzic-nwt/!svn/ver/10/trunk/src/ba/nwt/ministarstvo/shared/Korisnik.java
+V 97
+/svn/nedim-hadzic-nwt/!svn/ver/12/trunk/Ministarstvo/src/ba/nwt/ministarstvo/shared/Korisnik.java
+END
+Kalendar.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/nedim-hadzic-nwt/!svn/ver/15/trunk/Ministarstvo/src/ba/nwt/ministarstvo/shared/Kalendar.java
+END
+Ministarstvo.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/nedim-hadzic-nwt/!svn/ver/15/trunk/Ministarstvo/src/ba/nwt/ministarstvo/shared/Ministarstvo.java
 END
